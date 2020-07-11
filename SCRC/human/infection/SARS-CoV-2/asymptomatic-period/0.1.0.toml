@@ -1,0 +1,5 @@
+[asymptomatic-period]
+type = "distribution"
+distribution = "Lognormal"
+meanlog = 192
+
