@@ -12,7 +12,7 @@ We suggest that namespaces for Data Products should only contain ASCII letters, 
 
 ### Location within repository and filenames
 
-Data Products stored in this repository should be stored in folders according to their namespace, data product name and version number. So the `human/infection/SARS-CoV-2/latency-period` Data Product version `v0.0.1` in the `SCRC` namespace should be found in [`SCRC/human/infection/SARS-CoV-2/latency-period`](SCRC/human/infection/SARS-CoV-2/latency-period) and called [`v0.0.1.toml`](SCRC/human/infection/SARS-CoV-2/latency-period/v0.0.1.toml). Following this convention will make it easy to browse the repository.
+Data Products stored in this repository should be stored in folders according to their namespace, data product name and version number. So the `human/infection/SARS-CoV-2/latent-period` Data Product version `v0.0.1` in the `SCRC` namespace should be found in [`SCRC/human/infection/SARS-CoV-2/latent-period`](SCRC/human/infection/SARS-CoV-2/latent-period) and called [`v0.0.1.toml`](SCRC/human/infection/SARS-CoV-2/latent-period/v0.0.1.toml). Following this convention will make it easy to browse the repository.
 
 ## TOML file format
 
@@ -22,14 +22,14 @@ For TOML files, there are currently three types of information that can be store
 
 1. A simple point estimate of a parameter
 ```
-[latency-period]
+[latent-period]
 type = "point-estimate"
 value = 123.12
 ```
 
 2. The distribution of a parameter 
 ```
-[latency-period]
+[latent-period]
 type = "distribution" 
 distribution = "gamma" 
 shape = 1
@@ -38,19 +38,19 @@ scale = 2
  
  3. Empirical samples drawn from the distribution of a parameter
 ```
-[latency-period] 
+[latent-period] 
 type = "samples" 
 samples = [1.0, 2.0, 3.0, 4.0, 5.0]
 ```
 
-In the examples above, each file had a single component called `latency-period` in the data product. If there's only one component in a data product, then we suggest giving it the same name as the last part of the data product's name in the namespace, so for `human/infection/SARS-CoV-2/latency-period`, this would be `latency-period`. This will be the default if no component name is given in a funtion call.
+In the examples above, each file had a single component called `latent-period` in the data product. If there's only one component in a data product, then we suggest giving it the same name as the last part of the data product's name in the namespace, so for `human/infection/SARS-CoV-2/latent-period`, this would be `latent-period`. This will be the default if no component name is given in a funtion call.
 
 ### Multiple-component TOML files
 
 You can have multiple components of any kind in a single data product. For example:
 
 ```
-[latency-period]
+[latent-period]
 type = "point-estimate"
 value = 123.12
 
@@ -59,7 +59,7 @@ type = "point-estimate"
 value = 200.1
 ```
 
-The only further constraint is that all of the component names (here `latency-period` and `asymptomatic-period`) are different.
+The only further constraint is that all of the component names (here `latent-period` and `asymptomatic-period`) are different.
 
 [toml]: https://toml.io/en/
 
