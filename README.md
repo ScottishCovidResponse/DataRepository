@@ -1,6 +1,6 @@
 # DataRepository
 
-This is a git repository to store
+This is a git repository to store human readable data for the SCRC data pipeline. We anticipate that the Data Products stored here will be primarily toml files encoding epidemiological parameters.
 
 ## Data Product format
 
