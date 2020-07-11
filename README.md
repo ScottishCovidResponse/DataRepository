@@ -30,7 +30,7 @@ shape = 1
 scale = 2 
 ```
  
- 3. Samples drawn from the distribution of a parameters (possibly posterior samples from a Bayesian model)
+ 3. Empirical samples drawn from the distribution of a parameter
 ```
 [latency-period] 
 type = "samples" 
