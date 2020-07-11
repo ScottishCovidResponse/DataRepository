@@ -1,0 +1,3 @@
+[latency-period]
+type = "point-estimate"
+value = 123.12
