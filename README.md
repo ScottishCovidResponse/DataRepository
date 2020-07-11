@@ -12,7 +12,7 @@ We suggest that namespaces for Data Products should only contain ASCII letters, 
 
 ### Location within repository and filenames
 
-Data Products stored in this repository should be stored in folders according to their namespace, data product name and version number. So the `human/infection/SARS-CoV-2/latency-period` Data Product version `v0.0.1` in the `SCRC` namespace should be found in `SCRC/human/infection/SARS-CoV-2/latency-period` and called [`v0.0.1.toml`](SCRC/human/infection/SARS-CoV-2/latency-period/v0.0.1.toml). Following this convention will make it easy to browse the repository.
+Data Products stored in this repository should be stored in folders according to their namespace, data product name and version number. So the `human/infection/SARS-CoV-2/latency-period` Data Product version `v0.0.1` in the `SCRC` namespace should be found in [`SCRC/human/infection/SARS-CoV-2/latency-period`](SCRC/human/infection/SARS-CoV-2/latency-period) and called [`v0.0.1.toml`](SCRC/human/infection/SARS-CoV-2/latency-period/v0.0.1.toml). Following this convention will make it easy to browse the repository.
 
 ## TOML file format
 
