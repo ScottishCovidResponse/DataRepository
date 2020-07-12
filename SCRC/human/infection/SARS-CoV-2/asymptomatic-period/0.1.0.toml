@@ -1,5 +1,3 @@
 [asymptomatic-period]
-type = "distribution"
-distribution = "Lognormal"
-meanlog = 192
-
+type = "point-estimate"
+value = 192
