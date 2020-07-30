@@ -1,25 +1,25 @@
 [test-positive-accuracy]
-type = "estimate"
+type = "point-estimate"
 value = 0.95
 
 [test-negative-accuracy]
-type = "estimate"
+type = "point-estimate"
 value = 0.95
 
 [exposure-threshold]
-type = "estimate"
+type = "point-estimate"
 value = 50.0
 
 [exposure-probability-4-unit-contact]
-type = "estimate"
+type = "point-estimate"
 value = 0.01
 
 [exposure-exponent]
-type = "estimate"
+type = "point-estimate"
 value = 1.0
 
 [random-infection-rate]
-type = "estimate"
+type = "point-estimate"
 value = 0.0005
 
 [time-latent-distribution]
@@ -28,7 +28,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-latent-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-recovery-asymp-distribution]
@@ -37,7 +37,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-recovery-asymp-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-recovery-symp-distribution]
@@ -46,7 +46,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-recovery-symp-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 
@@ -56,7 +56,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-recovery-sev-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-symptoms-onset-distribution]
@@ -65,7 +65,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-symptoms-onset-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-decline-distribution]
@@ -74,7 +74,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-decline-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-death-distribution]
@@ -83,7 +83,7 @@ distribution = "exponential"
 scale = 5.0
 
 [time-death-max]
-type = "estimate"
+type = "point-estimate"
 value = 8.0
 
 [time-test-administered-distribution]
@@ -92,7 +92,7 @@ distribution = "exponential"
 scale = 1.0
 
 [time-test-administered-max]
-type = "estimate"
+type = "point-estimate"
 value = 3.0
 
 [time-test-result-distribution]
@@ -101,5 +101,5 @@ distribution = "exponential"
 scale = 1.0
 
 [time-test-result-max]
-type = "estimate"
+type = "point-estimate"
 value = 3.0
