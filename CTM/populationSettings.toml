@@ -1,5 +1,5 @@
 [gender-balance]
-type = "estimate"
+type = "point-estimate"
 value = 0.99
 
 [population-distribution]
