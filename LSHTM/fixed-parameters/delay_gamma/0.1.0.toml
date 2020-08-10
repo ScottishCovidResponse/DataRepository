@@ -1,0 +1,7 @@
+[max_delay_gamma]
+type = "point-estimate"
+value = 60
+
+[time_step_delay_gamma]
+type = "point-estimate"
+value = 0.25
