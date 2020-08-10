@@ -1,0 +1,6 @@
+[dIa]
+type = "distribution"
+distribution = "gamma"
+k = 5
+theta = 4
+

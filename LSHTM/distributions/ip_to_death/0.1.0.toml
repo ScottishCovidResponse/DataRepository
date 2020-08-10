@@ -1,0 +1,6 @@
+[ip_to_death]
+type = "distribution"
+distribution = "gamma"
+k = 22
+theta = 22
+

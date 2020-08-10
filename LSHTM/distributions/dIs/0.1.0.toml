@@ -1,0 +1,6 @@
+[dIs]
+type = "distribution"
+distribution = "gamma"
+k = 3.5
+theta = 4
+

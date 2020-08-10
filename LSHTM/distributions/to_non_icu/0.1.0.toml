@@ -1,0 +1,6 @@
+[to_non_icu]
+type = "distribution"
+distribution = "gamma"
+k = 8
+theta = 8
+

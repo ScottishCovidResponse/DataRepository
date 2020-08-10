@@ -1,0 +1,6 @@
+[dIp]
+type = "distribution"
+distribution = "gamma"
+k = 1.5
+theta = 4
+
