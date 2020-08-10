@@ -1,0 +1,11 @@
+[start_day]
+type = "point-estimate"
+value = 0
+
+[end_day]
+type = "point-estimate"
+value = 365
+
+[start_date_posix]
+type = "point-estimate"
+value = 18290

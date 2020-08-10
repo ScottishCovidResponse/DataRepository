@@ -1,0 +1,11 @@
+[rel_preclinical]
+type = "point-estimate"
+value = 1
+
+[rel_symptomatic]
+type = "point-estimate"
+value = 1
+
+[rel_subclinical]
+type = "point-estimate"
+value = 0.5

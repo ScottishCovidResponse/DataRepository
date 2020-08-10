@@ -1,0 +1,7 @@
+[isnational]
+type = "point-estimate"
+value = 1
+
+[duration]
+type = "point-estimate"
+value = 84

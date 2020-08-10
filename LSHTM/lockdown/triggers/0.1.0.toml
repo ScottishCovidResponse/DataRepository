@@ -1,0 +1,7 @@
+[intervention_shift]
+type = "point-estimate"
+value = 0
+
+[icu_bed_usage]
+type = "point-estimate"
+value = -1

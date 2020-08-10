@@ -1,0 +1,19 @@
+[seed]
+type = "point-estimate"
+value = -1
+
+[min_age]
+type = "point-estimate"
+value = 25
+
+[max_age]
+type = "point-estimate"
+value = 50
+
+[seeding_min_start_day]
+type = "point-estimate"
+value = 0
+
+[seeding_max_start_day]
+type = "point-estimate"
+value = 20
